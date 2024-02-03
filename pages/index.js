@@ -1,5 +1,5 @@
-import { Hero } from "@/sections"
-import Head from "next/head"
+import { Hero } from "@/sections";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>7Creative Desgin</title>
       </Head>
-      <Hero />
+      <Hero title="MAKING YOUR VISION BECOME A REALITY" />
     </>
-  )
+  );
 }

@@ -3,7 +3,7 @@
   text-align: center;
   padding: $xl-6 0;
   padding-top: $xll-3;
-  height: 90vh !important;
+  height: 100vh !important;
   overflow: hidden !important;
   position: relative;
   &::before {
@@ -13,8 +13,8 @@
     left: -40%;
     width: 180%;
     height: 200vh;
-    background-image: url("../assets/images/art-top-cropp.jpg");
-    background-size: cover;
+    background-image: url("../assets/images/ss.jpg");
+    background-size: 33%; /* Adjust the percentage to reduce the zoom level */
     background-position: center;
     z-index: -1;
     overflow-x: hidden !important;
