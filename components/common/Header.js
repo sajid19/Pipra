@@ -28,43 +28,44 @@ const Header = () => {
           >
             <Link
               href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              className={activeLink == "/" ? "activeLink" : "unactive"}
             >
               Home
             </Link>
             <Link
               href="/agency"
-              className={activeLink == "/agency" ? "activeLink" : "none"}
+              className={activeLink == "/agency" ? "activeLink" : "unactive"}
             >
               Agency
             </Link>
             <Link
               href="/team"
-              className={activeLink == "/team" ? "activeLink" : "none"}
+              className={activeLink == "/team" ? "activeLink" : "unactive"}
             >
               Team
             </Link>
             <Link
               href="/services"
-              className={activeLink == "/services" ? "activeLink" : "none"}
+              className={activeLink == "/services" ? "activeLink" : "unactive"}
             >
               Services
             </Link>
             <Link
               href="/showcase"
-              className={activeLink == "/showcase" ? "activeLink" : "none"}
+              className={activeLink == "/showcase" ? "activeLink" : "unactive"}
             >
               Showcase
             </Link>
             <Link
               href="/blogs"
-              className={activeLink == "/blogs" ? "activeLink" : "none"}
+              className={activeLink == "/blogs" ? "activeLink" : "unactive"}
+              // style={{ color: "black" }}
             >
               Blog
             </Link>
             <Link
               href="/contact"
-              className={activeLink == "/contact" ? "activeLink" : "none"}
+              className={activeLink == "/contact" ? "activeLink" : "unactive"}
             >
               Contact
             </Link>

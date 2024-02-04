@@ -28,6 +28,10 @@ header {
     background-color: $green;
   }
 }
+.unactive{
+  position: relative;
+  color:  black
+}
 
 @media screen and (max-width: 800px) {
   header {
