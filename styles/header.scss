@@ -28,9 +28,10 @@ header {
     background-color: $green;
   }
 }
-.unactive{
+.unactive {
   position: relative;
-  color:  black
+  color: black;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 800px) {

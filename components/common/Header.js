@@ -69,10 +69,14 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="button-primary">book a consultation</button>
+            {/* <button className="button-primary">book a consultation</button> */}
           </nav>
-          <button onClick={() => setOpen(!open)}>
-            {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
+          <button onClick={() => setOpen(!open)} style={{ color: "black" }}>
+            {open ? (
+              <AiOutlineClose size={25} style={{ color: "black" }} />
+            ) : (
+              <RiMenu4Line size={25} />
+            )}
           </button>
         </div>
       </header>
